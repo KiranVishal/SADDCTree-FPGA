@@ -1,0 +1,3 @@
+The code for loading the iris data set, creating the tree and also visualising the tree using pydotplus.
+
+The iris.pdf contains the actual tree which was visualised.
