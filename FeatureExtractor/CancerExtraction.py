@@ -1,21 +1,3 @@
-import numpy as np
-import re
-
-f = open("breast-cancer-wisconsin.data.txt", 'r')
-
-data = []
-label = []
-for line in f:
-    line = line.split(',')
-    data.append(line[1:-2])
-    l = line[-1]
-    l = l.split('\n')
-    label.append(l[0])
-
-data = np.asarray(data)
-
-label = np.asarray(label)
-
 """
 =========================================
 Understanding the decision tree structure
@@ -33,17 +15,11 @@ show how to retrieve:
 import numpy as np
 
 from sklearn.model_selection import train_test_split
-# from sklearn.datasets import load_iris
 from sklearn.tree import DecisionTreeClassifier
+import breastCancer
+import DT_Visualizer
 
-# iris = load_iris()
-# test_idx = [0,50,100]
-X = data
-y = label
-# X_train = np.delete(X, test_idx,axis=0)
-# y_train = np.delete(y, test_idx)
-# X_test = X[test_idx]
-# y_test = y[test_idx]
+X,y, feature_names, target_names = breastCancer.load_data("../dataSet/breast-cancer-wisconsin.data.txt")
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
 
 estimator = DecisionTreeClassifier()
@@ -107,6 +83,7 @@ for i in range(n_nodes):
                  ))
 print()
 
+# Write Network Structure to a file
 import csv
 
 feature_writer = csv.writer(open('FE_bc.csv','w'),delimiter=' ', quotechar='|')
@@ -118,10 +95,35 @@ for i in range(n_nodes):
     else:
         feature_writer.writerow([i, children_left[i], children_right[i], feature[i], threshold[i]])
 
+#testing 
+
 from sklearn.metrics import accuracy_score
 y_pred = estimator.predict(X_test)
 
-print(accuracy_score(y_test, y_pred))
+print('Test Accuracy',accuracy_score(y_test, y_pred))
+
+# Graph Visualization
+
+# from sklearn.externals.six import StringIO
+
+import pydotplus
+
+# from sklearn.tree import export_graphviz
+
+# #pdb.set_trace()
+# dot_data = StringIO()
+# export_graphviz(estimator, 
+#                         out_file=dot_data, 
+#                         feature_names=feature_names,  
+#                         class_names=target_names,  
+#                         filled=True, rounded=True,  
+#                         impurity=False)
+dot_data = DT_Visualizer.getDotFile(estimator, feature_names,target_names)
+graph = pydotplus.graph_from_dot_data(dot_data.getvalue())
+graph.write_pdf("Cancer.pdf")
+
+#Printing test data with path
+
 # First let's retrieve the decision path of each sample. The decision_path
 # method allows to retrieve the node indicator functions. A non zero element of
 # indicator matrix at the position (i, j) indicates that the sample i goes
@@ -160,16 +162,6 @@ print(accuracy_score(y_test, y_pred))
 #                  threshold_sign,
 #                  threshold[node_id]))
     
-# # For a group of samples, we have the following common node.
-# sample_ids = [0, 1]
-# common_nodes = (node_indicator.toarray()[sample_ids].sum(axis=0) ==
-#                 len(sample_ids))
-
-# common_node_id = np.arange(n_nodes)[common_nodes]
-
-# print("\nThe following samples %s share the node %s in the tree"
-#       % (sample_ids, common_node_id))
-# print("It is %s %% of all nodes." % (100 * len(common_node_id) / n_nodes,))
 
 
 
