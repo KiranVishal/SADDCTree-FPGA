@@ -1,5 +1,5 @@
-# SAMAC-FPGA
-Software Assisted Multiple Application Classifier Using FPGA
+# SADDCTree-FPGA
+Software Assisted Dynamic Dataset Classifier Tree On FPGA
 
 Use this link to access the trello board 
 
