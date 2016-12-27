@@ -12,4 +12,6 @@ def getDotFile(estimator, feature_names=None, target_names=None):
 	                        class_names=target_names,  
 	                        filled=True, rounded=True,  
 	                        impurity=False)
-	return dot_data
+	#dot_data = DT_Visualizer.getDotFile(estimator, feature_names,target_names)
+	graph = pydotplus.graph_from_dot_data(dot_data.getvalue())
+	graph.write_pdf("./paper/Tree_visuals/Cancer.pdf")
