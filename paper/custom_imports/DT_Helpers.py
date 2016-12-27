@@ -34,6 +34,7 @@ def getFeaturesFile(estimator, FileName):
 	feature = estimator.tree_.feature
 	threshold = estimator.tree_.threshold
 
+	n_leaf = 0 
 	# The tree structure can be traversed to compute various properties such
 	# as the depth of each node and whether or not it is a leaf.
 	node_depth = np.zeros(shape=n_nodes)
@@ -50,11 +51,17 @@ def getFeaturesFile(estimator, FileName):
 	        stack.append((children_right[node_id], parent_depth + 1))
 	    else:
 	        is_leaves[node_id] = True
-
+	
+	for i in range(n_nodes):
+	    if is_leaves[i]:
+	    	n_leaf = n_leaf + 1
 	#Make Sure The File Name  Has The Extension .CSV
 	#File_used = FileName
+	n_nonleaf = n_nodes - n_leaf
 	feature_writer = csv.writer(open(FileName,'w'),delimiter=' ', quotechar='|')
-	feature_writer.writerow(['NodeID', 'LeftNode', 'RightNode', 'FeatureId', 'Threshold'])
+	#feature_writer.writerow(['N_Node', 'Left_Node', 'Nonleaf_Node'])
+	feature_writer.writerow([n_nodes, n_leaf, n_nonleaf])
+	#feature_writer.writerow(['NodeID', 'LeftNode', 'RightNode', 'FeatureId', 'Threshold'])
 	for i in range(n_nodes):
 	    if is_leaves[i]:
 	        # -5 for leaf nodes to differentiate them and also to not leave blank fields
