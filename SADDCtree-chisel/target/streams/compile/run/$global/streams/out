@@ -1,0 +1,49 @@
+[info] Running saddc.comp --genHarness --compile --test --backend c --targetDir ./build --configInstance saddc.DefaultSADDCConfig
+[debug] Waiting for threads to exit or System.exit to be called.
+[debug]   Classpath:
+[debug] 	/home/marcia/SADDCtree-chisel/target/scala-2.11/classes
+[debug] 	/home/marcia/.ivy2/cache/edu.berkeley.cs/chisel_2.11/jars/chisel_2.11-2.2.36.jar
+[debug] 	/home/marcia/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+[debug] 	/home/marcia/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.5.jar
+[debug] 	/home/marcia/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar
+[debug] 	/home/marcia/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar
+[debug] 	/home/marcia/.ivy2/cache/org.scalacheck/scalacheck_2.11/jars/scalacheck_2.11-1.12.5.jar
+[debug] 	/home/marcia/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar
+[debug] Waiting for thread run-main-0 to terminate.
+[error] (run-main-0) Chisel.ChiselException: Module under test FAILED at least one test vector.
+Chisel.ChiselException: Module under test FAILED at least one test vector.
+	at saddc.comp$.main(Comparator.scala:55)
+[debug] 	Thread run-main-0 exited.
+[debug] Interrupting remaining threads (should be all daemons).
+[debug] Interrupting thread ForkJoinPool-1-worker-3
+[debug] 	Interrupted ForkJoinPool-1-worker-3
+[debug] Interrupting thread ForkJoinPool-1-worker-5
+[debug] 	Interrupted ForkJoinPool-1-worker-5
+[debug] Sandboxed run complete..
+java.lang.RuntimeException: Nonzero exit code: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:2077)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:2077)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:2077)
+	at sbt.Defaults$.toError(Defaults.scala:39)
+	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$38$$anonfun$apply$39.apply(Defaults.scala:750)
+	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$38$$anonfun$apply$39.apply(Defaults.scala:748)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:237)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[error] (compile:run) Nonzero exit code: 1
