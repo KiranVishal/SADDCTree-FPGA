@@ -1,8 +1,8 @@
-SHELL	:= /bin/bash
+# SHELL	:= /bin/bash
 SBT          ?= sbt
 SBT_FLAGS    ?= -Dsbt.log.noformat=true
 
-.SHELLFLAGS     :=  -e -o pipefail
+# .SHELLFLAGS     :=  -e -o pipefail
 
 # If a chiselVersion is defined, use that.
 ifneq (,$(chiselVersion))
@@ -15,9 +15,6 @@ CHISEL_CHECK_VERSION    ?= 2.3-SNAPSHOT
 CHISEL_DEFAULT_VERSION ?= latest.release
 endif
 
-CHISEL_FLAGS = --targetDir $(build_dir)\
-	--configInstance saddc.DefaultSADDCConfig
-
 top_srcdir  ?= .
 srcdir      ?= $(top_srcdir)/src/main/scala
 build_dir	?= $(top_srcdir)/build
@@ -26,6 +23,8 @@ executables := $(notdir $(basename $(wildcard $(srcdir)/*.scala)))
 
 tst_outs    := $(addsuffix .out, $(executables))
 
+CHISEL_FLAGS = --targetDir $(build_dir)\
+	--configInstance saddc.DefaultSADDCConfig
 
 default:  SBT_FLAGS += -DchiselVersion="$(CHISEL_DEFAULT_VERSION)"
 default: all
@@ -36,11 +35,12 @@ check:  SBT_FLAGS += -DchiselVersion="$(CHISEL_CHECK_VERSION)"
 check: test-solutions.xml
 
 clean:
-	rm -rf $(build_dir)/*
+	rm -rf build/*
 	rm -rf project/target/ target/
 
 cpp: 
-	set -e -o pipefail; $(SBT) $(SBT_FLAGS) "run $(notdir $(basename $<)) --genHarness --compile --test --backend c $(CHISEL_FLAGS)" | tee $@
+	# set -e -o pipefail; 
+	$(SBT) $(SBT_FLAGS) "run $(notdir $(basename $<)) --genHarness --compile --test --backend c $(CHISEL_FLAGS)" | tee $@
 
 verilog: 
 	$(SBT) $(SBT_FLAGS) "run $(notdir $(basename $<)) --genHarness --backend v $(CHISEL_FLAGS)"

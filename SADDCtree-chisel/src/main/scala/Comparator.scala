@@ -19,7 +19,7 @@ class ComparatorInterface extends SADDCBundle {
 
 class Comparator extends SADDCModule {
   val io = new ComparatorInterface
-  val dataOut = Reg(Bool(OUTPUT))
+  val dataOut = UInt(OUTPUT, width=1)
 
   when (io.req.bits.feature <= io.req.bits.weights) {
   		dataOut := UInt(1)
