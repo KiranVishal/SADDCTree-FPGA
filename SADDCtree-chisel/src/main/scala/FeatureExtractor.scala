@@ -2,7 +2,7 @@ package Chisel
 
 import scala.collection.mutable.{ArrayBuffer, HashMap}
 import java.io._
-
+//template for FE chisel 
  def read_file(filename: String): String = {
     val buffer = new StringBuilder
     
@@ -10,7 +10,8 @@ import java.io._
     val leaf_node = UInt(0)
     val nonleaf_node = UInt(0)
 
-    val current_node[n] = 0
+    val current_node[n] = 0  
+
     val left_node[n] = 0
     val right_node[n] = 0
     val feature_used[n] = 0
