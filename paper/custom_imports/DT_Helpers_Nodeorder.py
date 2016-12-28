@@ -63,14 +63,10 @@ def getFeaturesFile(estimator, FileName):
 	feature_writer.writerow([n_nodes, n_leaf, n_nonleaf])
 	#feature_writer.writerow(['NodeID', 'LeftNode', 'RightNode', 'FeatureId', 'Threshold'])
 	for i in range(n_nodes):
-	    if not is_leaves[i]:
-	        # -5 for leaf nodes to differentiate them and also to not leave blank fields
-	        feature_writer.writerow([i, children_left[i], children_right[i], feature[i], threshold[i]])
-
-	for i in range(n_nodes):
 	    if is_leaves[i]:
 	        # -5 for leaf nodes to differentiate them and also to not leave blank fields
 	        feature_writer.writerow([i, -5, -5, feature[i], threshold[i]]) 
-	        
+	    else:
+	        feature_writer.writerow([i, children_left[i], children_right[i], feature[i], threshold[i]])
 
 
