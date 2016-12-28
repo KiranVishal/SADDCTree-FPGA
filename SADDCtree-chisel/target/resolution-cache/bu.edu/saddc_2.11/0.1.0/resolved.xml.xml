@@ -4,7 +4,11 @@
 		module="saddc_2.11"
 		revision="0.1.0"
 		status="integration"
+<<<<<<< HEAD
 		publication="20161227235421"
+=======
+		publication="20161228000051"
+>>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 	>
 		<description>
 		saddc
