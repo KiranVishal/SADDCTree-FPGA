@@ -37,6 +37,7 @@ check: test-solutions.xml
 clean:
 	rm -rf build/*
 	rm -rf project/target/ target/
+	rm cpp
 
 cpp: 
 	# set -e -o pipefail; 
