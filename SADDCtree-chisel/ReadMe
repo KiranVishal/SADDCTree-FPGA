@@ -1,0 +1,2 @@
+Use this to run C++ version
+sbt -Dsbt.log.noformat=true -DchiselVersion="latest.release" "run  --genHarness --compile --test --backend c --targetDir ./build --configInstance saddc.DefaultSADDCConfig" | tee cpp
