@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 [info] Updating {file:/Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/}root...
-=======
-[info] Updating {file:/home/marcia/SAMAC-FPGA/SADDCtree-chisel/}root...
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [debug] :: resolving dependencies :: bu.edu#saddc_2.11;0.1.0
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -10,15 +6,10 @@
 [debug] resolving dependencies for configuration 'compile'
 [debug] == resolving dependencies for bu.edu#saddc_2.11;0.1.0 [compile]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
-<<<<<<< HEAD
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.scala-lang#scala-library;2.11.6 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-=======
-[info] Resolving org.scala-lang#scala-library;2.11.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33181aa7
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6
 [debug] 	found org.scala-lang#scala-library;2.11.6 in sbt-chain
 [debug] 	[2.11.6] org.scala-lang#scala-library;2.11.6
@@ -33,11 +24,7 @@
 [debug] sbt-chain-delegate: Checking cache for: dependency: edu.berkeley.cs#chisel_2.11;latest.release {compile=[default(compile)]}
 [debug] default-cache: cached resolved revision expired for edu.berkeley.cs#chisel_2.11;latest.release
 [debug] default-cache: cached resolved revision expired for edu.berkeley.cs#chisel_2.11;latest.release
-<<<<<<< HEAD
 [debug] 		tried /Users/kiranvishal/.ivy2/local/edu.berkeley.cs/chisel_2.11/[revision]/ivys/ivy.xml
-=======
-[debug] 		tried /home/marcia/.ivy2/local/edu.berkeley.cs/chisel_2.11/[revision]/ivys/ivy.xml
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [debug] 	local: no ivy file found for edu.berkeley.cs#chisel_2.11;latest.release
 [debug] default-cache: cached resolved revision expired for edu.berkeley.cs#chisel_2.11;latest.release
 [debug] 		tried https://repo1.maven.org/maven2/edu/berkeley/cs/chisel_2.11/[revision]/chisel_2.11-[revision].pom
@@ -47,7 +34,6 @@
 [debug] 	default-cache: revision in cache: edu.berkeley.cs#chisel_2.11;2.2.36
 [debug] 	found edu.berkeley.cs#chisel_2.11;2.2.36 in sbt-chain
 [debug] 	[2.2.36] edu.berkeley.cs#chisel_2.11;latest.release
-<<<<<<< HEAD
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->runtime]
@@ -81,31 +67,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-=======
-[debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->runtime]
-[debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
-[debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
-[debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [compile->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [compile->master]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [compile->master(compile)]
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [info] Resolving org.scalatest#scalatest_2.11;2.2.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.11;2.2.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.5
 [debug] 	found org.scalatest#scalatest_2.11;2.2.5 in sbt-chain
-<<<<<<< HEAD
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -206,21 +171,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-=======
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
-<<<<<<< HEAD
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.1 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
@@ -264,29 +218,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-=======
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [compile->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [compile->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [compile->master(compile)]
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [info] Resolving org.scalacheck#scalacheck_2.11;1.12.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalacheck#scalacheck_2.11;1.12.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: org.scalacheck#scalacheck_2.11;1.12.5
 [debug] 	found org.scalacheck#scalacheck_2.11;1.12.5 in sbt-chain
-<<<<<<< HEAD
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -315,12 +250,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-=======
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [compile->compile(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [compile->master(compile)]
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [info] Resolving org.scala-sbt#test-interface;1.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#test-interface;1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
@@ -328,7 +257,6 @@
 [debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [compile->compile(*)]
 [debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [compile->runtime(*)]
 [debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [compile->compile]
-<<<<<<< HEAD
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.6 [runtime->compile]
@@ -340,32 +268,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
 [debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.6 [runtime->compile]
-=======
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [runtime->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
-[info] Resolving org.scala-lang#scala-reflect;2.11.7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7
-[debug] 	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain
-[debug] 	[2.11.7] org.scala-lang#scala-reflect;2.11.7
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [compile->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [runtime->compile]
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [runtime->runtime(*)]
 [debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [runtime->compile]
 [debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [runtime->runtime(*)]
 [debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [runtime->compile]
-<<<<<<< HEAD
 [debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.6 [runtime->runtime(*)]
 [debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.6 [runtime->compile]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->master]
@@ -373,27 +279,18 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-=======
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
-[debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->master]
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for bu.edu#saddc_2.11;0.1.0 [runtime]
 [debug] == resolving dependencies for bu.edu#saddc_2.11;0.1.0 [compile]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
-<<<<<<< HEAD
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-=======
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->default(compile)]
-<<<<<<< HEAD
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
@@ -622,82 +519,21 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-=======
-[debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->runtime]
-[debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [compile->master(compile)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [compile->master(compile)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [compile->compile(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [compile->master(compile)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [runtime->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [runtime->compile]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [runtime->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
-[debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->master]
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for bu.edu#saddc_2.11;0.1.0 [test]
 [debug] == resolving dependencies for bu.edu#saddc_2.11;0.1.0 [runtime]
 [debug] == resolving dependencies for bu.edu#saddc_2.11;0.1.0 [compile]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
-<<<<<<< HEAD
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-=======
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->default(compile)]
-<<<<<<< HEAD
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
@@ -938,63 +774,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-=======
-[debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->runtime]
-[debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [compile->master(compile)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [compile->master(compile)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [compile->compile(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [compile->master(compile)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [runtime->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [runtime->compile]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [runtime->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
-[debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->master]
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for bu.edu#saddc_2.11;0.1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -1003,7 +782,6 @@
 [debug] == resolving dependencies for bu.edu#saddc_2.11;0.1.0 [compile-internal]
 [debug] == resolving dependencies for bu.edu#saddc_2.11;0.1.0 [compile]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
-<<<<<<< HEAD
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
@@ -1012,13 +790,10 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-=======
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->default(compile)]
-<<<<<<< HEAD
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
@@ -1271,63 +1046,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-=======
-[debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->runtime]
-[debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [compile->master(compile)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [compile->master(compile)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [compile->compile(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [compile->master(compile)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [runtime->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [runtime->compile]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [runtime->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
-[debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->master]
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [debug] == resolving dependencies for bu.edu#saddc_2.11;0.1.0 [optional]
 [debug] == resolving dependencies for bu.edu#saddc_2.11;0.1.0 [provided]
 [debug] resolving dependencies for configuration 'runtime-internal'
@@ -1335,7 +1053,6 @@
 [debug] == resolving dependencies for bu.edu#saddc_2.11;0.1.0 [runtime]
 [debug] == resolving dependencies for bu.edu#saddc_2.11;0.1.0 [compile]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
-<<<<<<< HEAD
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
@@ -1344,13 +1061,10 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-=======
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->default(compile)]
-<<<<<<< HEAD
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
@@ -1603,63 +1317,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-=======
-[debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->runtime]
-[debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [compile->master(compile)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [compile->master(compile)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [compile->compile(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [compile->master(compile)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [runtime->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [runtime->compile]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [runtime->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
-[debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->master]
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [debug] == resolving dependencies for bu.edu#saddc_2.11;0.1.0 [optional]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for bu.edu#saddc_2.11;0.1.0 [test-internal]
@@ -1667,7 +1324,6 @@
 [debug] == resolving dependencies for bu.edu#saddc_2.11;0.1.0 [runtime]
 [debug] == resolving dependencies for bu.edu#saddc_2.11;0.1.0 [compile]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
-<<<<<<< HEAD
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
@@ -1680,13 +1336,10 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-=======
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->default(compile)]
-<<<<<<< HEAD
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
@@ -1963,63 +1616,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-=======
-[debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->runtime]
-[debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [compile->master(compile)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [compile->master(compile)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [compile->compile(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [compile->master(compile)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalatest#scalatest_2.11;2.2.5 [runtime->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.5->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scalacheck#scalacheck_2.11;1.12.5 [runtime->compile]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.12.5->org.scala-sbt#test-interface;1.0 [runtime->compile]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
-[debug] == resolving dependencies edu.berkeley.cs#chisel_2.11;latest.release->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
-[debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->edu.berkeley.cs#chisel_2.11;latest.release [compile->master]
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [debug] == resolving dependencies for bu.edu#saddc_2.11;0.1.0 [optional]
 [debug] == resolving dependencies for bu.edu#saddc_2.11;0.1.0 [provided]
 [debug] resolving dependencies for configuration 'plugin'
@@ -2033,18 +1629,14 @@
 [debug] resolving dependencies for configuration 'scala-tool'
 [debug] == resolving dependencies for bu.edu#saddc_2.11;0.1.0 [scala-tool]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-compiler;2.11.6 [scala-tool->default]
-<<<<<<< HEAD
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-=======
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [info] Resolving org.scala-lang#scala-compiler;2.11.6 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.6
 [debug] 	found org.scala-lang#scala-compiler;2.11.6 in sbt-chain
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-compiler;2.11.6 [scala-tool->runtime]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-compiler;2.11.6 [scala-tool->compile]
-<<<<<<< HEAD
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
@@ -2060,15 +1652,11 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-=======
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->default]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->runtime]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master]
-<<<<<<< HEAD
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -2106,30 +1694,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-=======
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->optional(default)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [compile->master(compile)]
-[info] Resolving org.scala-lang#scala-reflect;2.11.6 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.6
-[debug] 	found org.scala-lang#scala-reflect;2.11.6 in sbt-chain
-[debug] 	[2.11.6] org.scala-lang#scala-reflect;2.11.6
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [compile->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [compile->compile]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->master(compile)]
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.3
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.3 in sbt-chain
-<<<<<<< HEAD
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.4 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->compile(*)]
@@ -2166,24 +1734,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-=======
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.4 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.4 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->compile]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [compile->master(compile)]
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 in sbt-chain
-<<<<<<< HEAD
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -2201,34 +1755,18 @@
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [runtime->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-=======
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [compile->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [compile->compile]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [runtime->compile]
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [runtime->compile]
-<<<<<<< HEAD
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [runtime->compile]
-=======
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [runtime->compile]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-compiler;2.11.6 [scala-tool->master]
-<<<<<<< HEAD
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -2251,10 +1789,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-=======
-[debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-compiler;2.11.6 [scala-tool->optional(default)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->jline#jline;2.12.1 [optional->master(compile)]
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [info] Resolving jline#jline;2.12.1 ...
 [debug] sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}
 [debug] sbt-chain: module revision found in cache: jline#jline;2.12.1
@@ -2265,15 +1799,11 @@
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [scala-tool->compile]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [scala-tool->master]
 [debug] == resolving dependencies bu.edu#saddc_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [scala-tool->optional(default)]
-<<<<<<< HEAD
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
-=======
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.6!scala-library.jar
 [debug] 	[NOT REQUIRED] edu.berkeley.cs#chisel_2.11;2.2.36!chisel_2.11.jar
-<<<<<<< HEAD
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.5!scalatest_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scalacheck#scalacheck_2.11;1.12.5!scalacheck_2.11.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar
@@ -2283,7 +1813,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 1403ms :: artifacts dl 15ms
+[debug] :: resolution report :: resolve 1509ms :: artifacts dl 16ms
 [debug] 	report for bu.edu#saddc_2.11;0.1.0 compile produced in /Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/target/resolution-cache/reports/bu.edu-saddc_2.11-compile.xml
 [debug] 	report for bu.edu#saddc_2.11;0.1.0 runtime produced in /Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/target/resolution-cache/reports/bu.edu-saddc_2.11-runtime.xml
 [debug] 	report for bu.edu#saddc_2.11;0.1.0 test produced in /Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/target/resolution-cache/reports/bu.edu-saddc_2.11-test.xml
@@ -2297,39 +1827,5 @@
 [debug] 	report for bu.edu#saddc_2.11;0.1.0 docs produced in /Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/target/resolution-cache/reports/bu.edu-saddc_2.11-docs.xml
 [debug] 	report for bu.edu#saddc_2.11;0.1.0 pom produced in /Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/target/resolution-cache/reports/bu.edu-saddc_2.11-pom.xml
 [debug] 	report for bu.edu#saddc_2.11;0.1.0 scala-tool produced in /Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/target/resolution-cache/reports/bu.edu-saddc_2.11-scala-tool.xml
-[debug] 	resolve done (1403ms resolve - 15ms download)
+[debug] 	resolve done (1509ms resolve - 16ms download)
 [info] Done updating.
-=======
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.5!scalatest_2.11.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scalacheck#scalacheck_2.11;1.12.5!scalacheck_2.11.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.6!scala-compiler.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(bundle)
-[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 1140ms :: artifacts dl 22ms
-[debug] 	report for bu.edu#saddc_2.11;0.1.0 compile produced in /home/marcia/SAMAC-FPGA/SADDCtree-chisel/target/resolution-cache/reports/bu.edu-saddc_2.11-compile.xml
-[debug] 	report for bu.edu#saddc_2.11;0.1.0 runtime produced in /home/marcia/SAMAC-FPGA/SADDCtree-chisel/target/resolution-cache/reports/bu.edu-saddc_2.11-runtime.xml
-[debug] 	report for bu.edu#saddc_2.11;0.1.0 test produced in /home/marcia/SAMAC-FPGA/SADDCtree-chisel/target/resolution-cache/reports/bu.edu-saddc_2.11-test.xml
-[debug] 	report for bu.edu#saddc_2.11;0.1.0 provided produced in /home/marcia/SAMAC-FPGA/SADDCtree-chisel/target/resolution-cache/reports/bu.edu-saddc_2.11-provided.xml
-[debug] 	report for bu.edu#saddc_2.11;0.1.0 optional produced in /home/marcia/SAMAC-FPGA/SADDCtree-chisel/target/resolution-cache/reports/bu.edu-saddc_2.11-optional.xml
-[debug] 	report for bu.edu#saddc_2.11;0.1.0 compile-internal produced in /home/marcia/SAMAC-FPGA/SADDCtree-chisel/target/resolution-cache/reports/bu.edu-saddc_2.11-compile-internal.xml
-[debug] 	report for bu.edu#saddc_2.11;0.1.0 runtime-internal produced in /home/marcia/SAMAC-FPGA/SADDCtree-chisel/target/resolution-cache/reports/bu.edu-saddc_2.11-runtime-internal.xml
-[debug] 	report for bu.edu#saddc_2.11;0.1.0 test-internal produced in /home/marcia/SAMAC-FPGA/SADDCtree-chisel/target/resolution-cache/reports/bu.edu-saddc_2.11-test-internal.xml
-[debug] 	report for bu.edu#saddc_2.11;0.1.0 plugin produced in /home/marcia/SAMAC-FPGA/SADDCtree-chisel/target/resolution-cache/reports/bu.edu-saddc_2.11-plugin.xml
-[debug] 	report for bu.edu#saddc_2.11;0.1.0 sources produced in /home/marcia/SAMAC-FPGA/SADDCtree-chisel/target/resolution-cache/reports/bu.edu-saddc_2.11-sources.xml
-[debug] 	report for bu.edu#saddc_2.11;0.1.0 docs produced in /home/marcia/SAMAC-FPGA/SADDCtree-chisel/target/resolution-cache/reports/bu.edu-saddc_2.11-docs.xml
-[debug] 	report for bu.edu#saddc_2.11;0.1.0 pom produced in /home/marcia/SAMAC-FPGA/SADDCtree-chisel/target/resolution-cache/reports/bu.edu-saddc_2.11-pom.xml
-[debug] 	report for bu.edu#saddc_2.11;0.1.0 scala-tool produced in /home/marcia/SAMAC-FPGA/SADDCtree-chisel/target/resolution-cache/reports/bu.edu-saddc_2.11-scala-tool.xml
-[debug] 	resolve done (1140ms resolve - 22ms download)
-[info] Done updating.
-[warn] Scala version was updated by one of library dependencies:
-[warn] 	* org.scala-lang:scala-library:(2.11.6, 2.11.1, 2.11.2) -> 2.11.7
-[warn] To force scalaVersion, add the following:
-[warn] 	ivyScala := ivyScala.value map { _.copy(overrideScalaVersion = true) }
-[warn] Run 'evicted' to see detailed eviction warnings
->>>>>>> c795fc407f00d898f40c01bad14cee8f06c26826
