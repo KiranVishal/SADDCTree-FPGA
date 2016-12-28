@@ -20,6 +20,13 @@ class ComparatorInterface extends SADDCBundle {
 class Comparator extends SADDCModule {
   val io = new ComparatorInterface
   val dataOut = UInt(OUTPUT, width=1)
+ 
+  val myUInt= "hi hi"
+  val myU = myUInt.split(" ")
+  printf(myU(0))
+  //printf(myU(1))
+
+  
 
   when (io.req.bits.feature <= io.req.bits.weights) {
   		dataOut := UInt(1)
