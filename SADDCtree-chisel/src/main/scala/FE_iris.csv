@@ -1,4 +1,4 @@
-NodeID LeftNode RightNode FeatureId Threshold
+17 9 8
 0 1 2 3 0.800000011921
 1 -5 -5 -2 -2.0
 2 3 12 3 1.75
