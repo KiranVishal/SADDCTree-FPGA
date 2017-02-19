@@ -1,4 +1,4 @@
-// package Chisel
+ // package Chisel
 
 // import scala.collection.mutable.{ArrayBuffer, HashMap}
 // import java.io._
@@ -82,6 +82,7 @@ object cont {
   var leaf_node = 0
   var nonleaf_node = 0
   var i = 0
+  var optN_comp = 0
   try{
     
     val reader = new BufferedReader(new FileReader(filename))
@@ -95,8 +96,9 @@ object cont {
     n_node = line_arrayint(0)
     leaf_node = line_arrayint(1)
     nonleaf_node = line_arrayint(2)
+    optN_comp = (n_node * 0.4)
     i = i + 1
-    printf("%d %d %d \n", n_node, leaf_node, nonleaf_node)
+    printf("%d %d %d The number of comparators to be instantiated is %d \n", n_node, leaf_node, nonleaf_node, optN_comp)
   
     val current_node = Array.fill(n_node){0}  
     val left_node = Array.fill(n_node){0}

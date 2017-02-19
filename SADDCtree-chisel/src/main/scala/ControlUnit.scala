@@ -9,9 +9,23 @@ class ControlUnitInterface extends SADDCBundle with ControlUnitParameters{
   // val fBlock = Vec.fill(n_comparator){SInt(INPUT, 32)}
   // val wBlock = Vec.fill(n_comparator){SInt(INPUT, 32)}
   // val decision = Vec.fill(n_comparator){UInt(OUTPUT, 1)}
-  val fBlock = SInt(INPUT, 32)
-  val wBlock = SInt(INPUT, 32)
+  val fBlock = SInt(INPUT, 32) // feature wire
+  val wBlock = SInt(INPUT, 32) // treshold wire
   val decision = UInt(OUTPUT, 1)
+  
+  // Wres for total nodes, leaf nodes and non-leaf nodes
+  val n_node = UInt{INPUT, 32} // total number of nodes wire
+  val leaf_node = UInt{INPUT, 32}
+  val nonleaf_node = UInt{INPUT, 32}
+
+  // Wires for other features -> routed from a register file
+  val current_node = UInt{INPUT, 32}
+  val left_node = UInt{INPUT, 32}
+  val right_node = UInt{INPUT, 32}
+  val feature_index = UInt{INPUT, 32}
+
+  // Wire from Feature Extractor code
+  val optN_comp = UInt{INPUT, 32}
 }
 
 
