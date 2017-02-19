@@ -24,7 +24,14 @@ class Comparator extends SADDCModule {
   val dataOut = UInt(OUTPUT, width=1)
 
   io.resp.bits.index := io.req.bits.index
+<<<<<<< HEAD
   io.resp.bits.decision := dataOut 
+=======
+  // io.req.ready := Bool(false)
+  // io.resp.valid := Bool(false)
+  io.resp.bits.decision := dataOut
+
+>>>>>>> 90f386b2bacbf5150c518da5b7ca45be3abb3225
 
   when (io.req.bits.feature <= io.req.bits.weights) {
   		dataOut := UInt(1)
