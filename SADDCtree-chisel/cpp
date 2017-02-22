@@ -13,10 +13,25 @@
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 ...
 [info] Resolving jline#jline;2.12.1 ...
 [info] Done updating.
-[info] Compiling 5 Scala sources to /Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/target/scala-2.11/classes...
-[error] /Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/src/main/scala/FeatureExtractor.scala:6: expected class or object definition
-[error]  def read_file(filename: String): String = {
-[error]  ^
-[error] one error found
+[info] Compiling 6 Scala sources to /Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/target/scala-2.11/classes...
+[error] /Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/src/main/scala/ControlUnit.scala:29: not found: value gen
+[error]   val rValues = Vec.tabulate(4) { i => gen(i).asOutput }
+[error]                                        ^
+[error] /Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/src/main/scala/ControlUnit.scala:32: not found: value gen
+[error]   val wValues = Vec.tabulate(4) { i => gen(i).asInput }
+[error]                                        ^
+[error] /Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/src/main/scala/ControlUnit.scala:90: value valid is not a member of Nothing
+[error]         poke(uut.io.wValues(randWPort).valid, randValid)
+[error]                                        ^
+[error] /Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/src/main/scala/ControlUnit.scala:91: value bits is not a member of Nothing
+[error]         poke(uut.io.wValues(randWPort).bits, randVal)
+[error]                                        ^
+[error] /Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/src/main/scala/ControlUnit.scala:100: value valid is not a member of Nothing
+[error]     expect(uut.io.rValues(randRPort).valid, randValid)
+[error]                                      ^
+[error] /Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/src/main/scala/ControlUnit.scala:101: value bits is not a member of Nothing
+[error]     expect(uut.io.rValues(randRPort).bits, randVal)
+[error]                                      ^
+[error] 6 errors found
 [error] (compile:compileIncremental) Compilation failed
-[error] Total time: 5 s, completed 28 Dec, 2016 2:29:24 AM
+[error] Total time: 8 s, completed 21 Feb, 2017 11:16:25 AM

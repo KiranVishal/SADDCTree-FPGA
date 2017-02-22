@@ -96,7 +96,7 @@ object cont {
     n_node = line_arrayint(0)
     leaf_node = line_arrayint(1)
     nonleaf_node = line_arrayint(2)
-    optN_comp = (n_node * 0.4)
+    optN_comp = (n_node * 4) / 100
     i = i + 1
     printf("%d %d %d The number of comparators to be instantiated is %d \n", n_node, leaf_node, nonleaf_node, optN_comp)
   
