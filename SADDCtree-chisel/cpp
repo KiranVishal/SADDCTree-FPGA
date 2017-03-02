@@ -14,24 +14,126 @@
 [info] Resolving jline#jline;2.12.1 ...
 [info] Done updating.
 [info] Compiling 6 Scala sources to /Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/target/scala-2.11/classes...
-[error] /Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/src/main/scala/ControlUnit.scala:29: not found: value gen
-[error]   val rValues = Vec.tabulate(4) { i => gen(i).asOutput }
-[error]                                        ^
-[error] /Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/src/main/scala/ControlUnit.scala:32: not found: value gen
-[error]   val wValues = Vec.tabulate(4) { i => gen(i).asInput }
-[error]                                        ^
-[error] /Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/src/main/scala/ControlUnit.scala:90: value valid is not a member of Nothing
-[error]         poke(uut.io.wValues(randWPort).valid, randValid)
-[error]                                        ^
-[error] /Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/src/main/scala/ControlUnit.scala:91: value bits is not a member of Nothing
-[error]         poke(uut.io.wValues(randWPort).bits, randVal)
-[error]                                        ^
-[error] /Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/src/main/scala/ControlUnit.scala:100: value valid is not a member of Nothing
-[error]     expect(uut.io.rValues(randRPort).valid, randValid)
-[error]                                      ^
-[error] /Users/kiranvishal/Documents/ML_sklearn/Git/SADDCTree-FPGA/SADDCtree-chisel/src/main/scala/ControlUnit.scala:101: value bits is not a member of Nothing
-[error]     expect(uut.io.rValues(randRPort).bits, randVal)
-[error]                                      ^
-[error] 6 errors found
-[error] (compile:compileIncremental) Compilation failed
-[error] Total time: 8 s, completed 21 Feb, 2017 11:16:25 AM
+[warn] Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
+
+Multiple main classes detected, select one to run:
+
+ [1] cont.cont
+ [2] saddc.cont
+
+Enter number: 2
+
+[info] Running saddc.cont --genHarness --compile --test --backend c --targetDir ./build --configInstance saddc.DefaultSADDCConfig
+buildInfoPackage: Chisel, version: 2.2.37, scalaVersion: 2.11.7, sbtVersion: 0.13.11, builtAtString: 2017-02-23 22:41:00.132, builtAtMillis: 1487889660132
+CPP elaborate
+[[35minfo[0m] [0.123] // COMPILING < (class saddc.ControlUnit)>(10)
+[[35minfo[0m] [0.162] giving names
+[[35minfo[0m] [0.196] executing custom transforms
+[[35minfo[0m] [0.197] convert masked writes of inline mems
+[[35minfo[0m] [0.203] adding clocks and resets
+[[35minfo[0m] [0.217] inferring widths
+[[35minfo[0m] [0.237] checking widths
+[[35minfo[0m] [0.241] lowering complex nodes to primitives
+[[35minfo[0m] [0.241] removing type nodes
+[[35minfo[0m] [0.248] compiling 221 nodes
+[[35minfo[0m] [0.248] computing memory ports
+[[35minfo[0m] [0.254] resolving nodes to the components
+[[35minfo[0m] [0.283] creating clock domains
+[[35minfo[0m] [0.284] pruning unconnected IOs
+[[35minfo[0m] [0.288] checking for combinational loops
+[[35minfo[0m] [0.296] NO COMBINATIONAL LOOP FOUND
+[[35minfo[0m] [0.331] populating clock domains
+CppBackend::elaborate: need 0, redundant 0 shadow registers
+[[35minfo[0m] [0.367] generating cpp files
+CppBackend: createCppFile ControlUnit.DefaultSADDCConfig.cpp
+[[35minfo[0m] [1.016] g++ -c -o ./build/ControlUnit.DefaultSADDCConfig-emulator.o  -I../ -I/csrc/  ./build/ControlUnit.DefaultSADDCConfig-emulator.cpp RET 0
+[[35minfo[0m] [1.674] g++ -c -o ./build/ControlUnit.DefaultSADDCConfig.o  -I../ -I/csrc/  ./build/ControlUnit.DefaultSADDCConfig.cpp RET 0
+[[35minfo[0m] [1.752] g++   -o ./build/ControlUnit.DefaultSADDCConfig ./build/ControlUnit.DefaultSADDCConfig.o ./build/ControlUnit.DefaultSADDCConfig-emulator.o RET 0
+sim start on dhcp-wifi-8021x-155-41-104-146.bu.edu at Fri Feb 24 14:50:26 2017
+inChannelName: 00000187.in
+outChannelName: 00000187.out
+cmdChannelName: 00000187.cmd
+SEED 1487965825025
+STARTING ./build/ControlUnit.DefaultSADDCConfig 
+  POKE ControlUnit.io_fBlock <- 0x23
+  POKE ControlUnit.io_wBlock <- 0x7
+  EXPECT ControlUnit.io_decision -> 0x0 == 0x0 PASS
+STEP 1 -> 1
+  POKE ControlUnit.io_fBlock <- 0xc
+  POKE ControlUnit.io_wBlock <- 0x1e
+  EXPECT ControlUnit.io_decision -> 0x1 == 0x1 PASS
+STEP 1 -> 2
+  POKE ControlUnit.io_fBlock <- 0x2
+  POKE ControlUnit.io_wBlock <- 0x10
+  EXPECT ControlUnit.io_decision -> 0x1 == 0x1 PASS
+STEP 1 -> 3
+  POKE ControlUnit.io_fBlock <- 0xb
+  POKE ControlUnit.io_wBlock <- 0x37
+  EXPECT ControlUnit.io_decision -> 0x1 == 0x1 PASS
+STEP 1 -> 4
+  POKE ControlUnit.io_fBlock <- 0x15
+  POKE ControlUnit.io_wBlock <- 0x25
+  EXPECT ControlUnit.io_decision -> 0x1 == 0x1 PASS
+STEP 1 -> 5
+  POKE ControlUnit.io_fBlock <- 0x21
+  POKE ControlUnit.io_wBlock <- 0x10
+  EXPECT ControlUnit.io_decision -> 0x0 == 0x0 PASS
+STEP 1 -> 6
+  POKE ControlUnit.io_fBlock <- 0x19
+  POKE ControlUnit.io_wBlock <- 0x2d
+  EXPECT ControlUnit.io_decision -> 0x1 == 0x1 PASS
+STEP 1 -> 7
+  POKE ControlUnit.io_fBlock <- 0x27
+  POKE ControlUnit.io_wBlock <- 0x5
+  EXPECT ControlUnit.io_decision -> 0x0 == 0x0 PASS
+STEP 1 -> 8
+  POKE ControlUnit.io_fBlock <- 0x13
+  POKE ControlUnit.io_wBlock <- 0x29
+  EXPECT ControlUnit.io_decision -> 0x1 == 0x1 PASS
+STEP 1 -> 9
+  POKE ControlUnit.io_fBlock <- 0x29
+  POKE ControlUnit.io_wBlock <- 0x2b
+  EXPECT ControlUnit.io_decision -> 0x1 == 0x1 PASS
+STEP 1 -> 10
+  POKE ControlUnit.io_fBlock <- 0x1d
+  POKE ControlUnit.io_wBlock <- 0x21
+  EXPECT ControlUnit.io_decision -> 0x1 == 0x1 PASS
+STEP 1 -> 11
+  POKE ControlUnit.io_fBlock <- 0xc
+  POKE ControlUnit.io_wBlock <- 0x20
+  EXPECT ControlUnit.io_decision -> 0x1 == 0x1 PASS
+STEP 1 -> 12
+  POKE ControlUnit.io_fBlock <- 0x1
+  POKE ControlUnit.io_wBlock <- 0x21
+  EXPECT ControlUnit.io_decision -> 0x1 == 0x1 PASS
+STEP 1 -> 13
+  POKE ControlUnit.io_fBlock <- 0x34
+  POKE ControlUnit.io_wBlock <- 0x2
+  EXPECT ControlUnit.io_decision -> 0x0 == 0x0 PASS
+STEP 1 -> 14
+  POKE ControlUnit.io_fBlock <- 0x27
+  POKE ControlUnit.io_wBlock <- 0x15
+  EXPECT ControlUnit.io_decision -> 0x0 == 0x0 PASS
+STEP 1 -> 15
+  POKE ControlUnit.io_fBlock <- 0x17
+  POKE ControlUnit.io_wBlock <- 0x16
+  EXPECT ControlUnit.io_decision -> 0x0 == 0x0 PASS
+STEP 1 -> 16
+  POKE ControlUnit.io_fBlock <- 0x38
+  POKE ControlUnit.io_wBlock <- 0x2b
+  EXPECT ControlUnit.io_decision -> 0x0 == 0x0 PASS
+STEP 1 -> 17
+  POKE ControlUnit.io_fBlock <- 0x26
+  POKE ControlUnit.io_wBlock <- 0x26
+  EXPECT ControlUnit.io_decision -> 0x1 == 0x1 PASS
+STEP 1 -> 18
+  POKE ControlUnit.io_fBlock <- 0x13
+  POKE ControlUnit.io_wBlock <- 0x2
+  EXPECT ControlUnit.io_decision -> 0x0 == 0x0 PASS
+STEP 1 -> 19
+  POKE ControlUnit.io_fBlock <- 0x32
+  POKE ControlUnit.io_wBlock <- 0x35
+  EXPECT ControlUnit.io_decision -> 0x1 == 0x1 PASS
+STEP 1 -> 20
+RAN 20 CYCLES PASSED
+[success] Total time: 14 s, completed 24 Feb, 2017 2:50:27 PM

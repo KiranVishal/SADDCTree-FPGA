@@ -16,7 +16,7 @@ CHISEL_DEFAULT_VERSION ?= latest.release
 endif
 
 top_srcdir  ?= .
-srcdir      ?= $(top_srcdir)/src/main/scala
+srcdir      ?= $(top_srcdir)/scala
 build_dir	?= $(top_srcdir)/build
 
 executables := $(notdir $(basename $(wildcard $(srcdir)/*.scala)))

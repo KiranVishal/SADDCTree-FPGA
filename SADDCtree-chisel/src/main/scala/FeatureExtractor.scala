@@ -65,16 +65,16 @@ import java.io._
 
 
 
-object cont {
-  def main(args: Array[String]): Unit = {
-  // chiselMainTest(args, () => Module(new ControlUnit, {case No_Comparator=> 10} )) {
-  //   c => new ControlUnitTests(c) 
-  printf("hiiiiiiii")
-  //cont.read_file("./FE_iris.csv")
-  //val line_arrayint1 = "1 2 3 4 5 6 7".split(" ").map(_.toInt).distinct
-  //printf("%d %d %d", line_arrayint1(0), line_arrayint1(2), line_arrayint1(4))
-  read_file("./FE_iris.csv")
-  }
+// object cont {
+//   def main(args: Array[String]): Unit = {
+//   // chiselMainTest(args, () => Module(new ControlUnit, {case No_Comparator=> 10} )) {
+//   //   c => new ControlUnitTests(c) 
+//   printf("hiiiiiiii")
+//   //cont.read_file("./FE_iris.csv")
+//   //val line_arrayint1 = "1 2 3 4 5 6 7".split(" ").map(_.toInt).distinct
+//   //printf("%d %d %d", line_arrayint1(0), line_arrayint1(2), line_arrayint1(4))
+//   read_file("./FE_iris.csv")
+//   }
  def read_file(filename: String): String = {
   val buffer = new StringBuilder
   
